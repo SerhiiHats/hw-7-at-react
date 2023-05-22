@@ -13,7 +13,7 @@
   cursor: pointer;
   outline: 0;
 
-  &:hover, &:focus {
+  &:hover {
     background: #03e9f4;
     color: #fff;
     border-radius: 5px;
@@ -39,7 +39,10 @@
       0 0 50px #607d8b,
       0 0 100px #607d8b;
     }
+  }
 
+  &:active {
+    box-shadow: none;
   }
 
   .icon {

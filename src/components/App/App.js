@@ -2,6 +2,7 @@ import Header from "../Header/Header";
 import {useState} from "react";
 import styles from "./App.module.scss"
 import MainBoardToDoFunction from "../MainBoardToDoFunction/MainBoardToDoFunction";
+import Panel from "../Panel/Panel";
 
 
 function App() {
@@ -21,6 +22,10 @@ function App() {
         <MainBoardToDoFunction/>
       </div>
       <Header nameTask={task2.name} descriptionTask={task2.description}/>
+      <div className={styles.containerAnswer}>
+        <Panel/>
+        something
+      </div>
 
     </div>
   );
