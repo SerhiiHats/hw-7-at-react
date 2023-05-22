@@ -7,7 +7,7 @@ import {Icon} from "../Icon/Icon";
 export const Button = (props) => {
   const {children, className, color, size, iconType, type = "button", ...rest} = props;
   const render = (
-    <span>
+    <span className={styles.icon}>
       {iconType && <Icon type={iconType} color={color} size={size}/>}
       {children || null}
     </span>

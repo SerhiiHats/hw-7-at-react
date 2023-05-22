@@ -42,6 +42,11 @@
 
   }
 
+  .icon {
+    display: inline-block;
+    vertical-align: text-top;
+  }
+
 }
 
 .contentWrapper {
@@ -49,8 +54,3 @@
   line-height: 1;
 }
 
-.icon {
-  display: inline-block;
-  margin-right: 8px;
-  vertical-align: text-top;
-}

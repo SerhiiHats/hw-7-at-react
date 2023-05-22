@@ -34,7 +34,7 @@ const FormFunc = (props) => {
       <div className={styles.rowForm}>
         <input type={"text"} placeholder={"add new task"} className={"test2"} onChange={(e) => handlerValue(e)}
                value={valueInput}/>
-        <Button type={"submit"} iconType={iconTypes.plus} className={"test3"}>Add</Button>
+        <Button type={"submit"} iconType={iconTypes.plus} className={"test3"} color={"#03e9f4"}> Add</Button>
       </div>
     </form>
   );
