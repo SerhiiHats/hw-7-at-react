@@ -1,0 +1,25 @@
+.containerItem {
+  width: 79%;
+  border: 1px solid black;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+
+  .done {
+    background-color: #94b21b;
+    text-decoration: line-through;
+    width: 100%;
+    text-align: left;
+  }
+
+  .unDone {
+    background-color: #6f6f6f;
+    text-decoration: none;
+    text-align: left;
+  }
+
+  input {
+    margin: 0 7px;
+  }
+}

@@ -1,6 +1,7 @@
 import Header from "../Header/Header";
 import {useState} from "react";
 import styles from "./App.module.scss"
+import MainBoardToDoFunction from "../MainBoardToDoFunction/MainBoardToDoFunction";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className={styles.app}>
       <Header nameTask={task1.name} descriptionTask={task1.description}/>
       <div className={styles.containerAnswer}>
+        <MainBoardToDoFunction/>
 
       </div>
 
