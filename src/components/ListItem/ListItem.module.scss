@@ -1,5 +1,5 @@
 .containerItem {
-  width: 79%;
+  width: 80%;
   border: 1px solid black;
   margin: 5px auto;
   display: flex;
@@ -11,12 +11,14 @@
     text-decoration: line-through;
     width: 100%;
     text-align: left;
+    padding-top: 7px;
   }
 
   .unDone {
     background-color: #6f6f6f;
     text-decoration: none;
     text-align: left;
+    padding-top: 7px;
   }
 
   input {
