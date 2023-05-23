@@ -25,7 +25,7 @@ function App() {
       <div className={styles.containerAnswer}>
         <Panel/>
       </div>
-
+      <Header nameTask={task2.name} descriptionTask={task2.description}/>
     </div>
   );
 }
