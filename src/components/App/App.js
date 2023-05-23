@@ -24,7 +24,6 @@ function App() {
       <Header nameTask={task2.name} descriptionTask={task2.description}/>
       <div className={styles.containerAnswer}>
         <Panel/>
-        something
       </div>
 
     </div>

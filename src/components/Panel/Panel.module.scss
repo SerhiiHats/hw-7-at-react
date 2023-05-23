@@ -1,7 +1,23 @@
-.containerPanel{
-    width: 200px;
-    background-color: #6f6f6f;
-    border-radius: 10px;
-    margin: 10px auto;
-    padding: 10px;
+.containerPanel {
+  width: 200px;
+  background-color: #6f6f6f;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 10px;
+
+  section {
+    display: flex;
+    align-items: end;
+  }
+}
+
+.count {
+  width: 70px;
+  height: 35px;
+  border: 1px solid #07d507;
+  color: #07d507;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 7px;
 }
