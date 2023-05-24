@@ -7,9 +7,9 @@ const FormFunc = (props) => {
 
   const [valueInput, setvalueInput] = useState("");
 
-  useEffect(() => {
-    document.forms.listTask.elements[0].focus();
-  })
+  // useEffect(() => {
+  //   document.forms.listTask.elements[0].focus();
+  // })
 
   function handlerValue(e) {
     setvalueInput(e.target.value)

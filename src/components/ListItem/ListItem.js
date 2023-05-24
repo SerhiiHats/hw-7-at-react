@@ -15,7 +15,6 @@ const ListItem = (props) => {
 
   function handlerCheckBox() {
     setDone(!done);
-    console.log(done);
   }
 
   return (

@@ -3,6 +3,7 @@ import {useState} from "react";
 import styles from "./App.module.scss"
 import MainBoardToDoFunction from "../MainBoardToDoFunction/MainBoardToDoFunction";
 import Panel from "../Panel/Panel";
+import ToDoListImprove from "../ToDoListImprove/ToDoListImprove";
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
         <Panel/>
       </div>
       <Header nameTask={task3.name} descriptionTask={task3.description}/>
+      <div className={styles.containerAnswer}>
+        <ToDoListImprove/>
+      </div>
     </div>
   );
 }

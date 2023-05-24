@@ -4,7 +4,6 @@ import {INC} from "./areaButtonActions";
 const areaButtonReducer = (count = initialStore.countFromRedux, action) => {
   switch (action.type) {
     case INC: {
-      console.log(count)
       return count + 1;
     }
 
