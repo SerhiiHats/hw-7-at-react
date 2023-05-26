@@ -24,7 +24,7 @@ export default function FormDialog(props) {
     }
     const tempNewTask = newTask.trim();
     if (tempNewTask.length) {
-      addItem({value: newTask, id: Date.now()});
+      addItem({value: newTask, done: false, id: Date.now()});
     }
   }
 

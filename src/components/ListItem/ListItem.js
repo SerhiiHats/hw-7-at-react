@@ -5,16 +5,17 @@ import styles from "./ListItem.module.scss"
 
 const ListItem = (props) => {
 
-  const {key, id, elem, removeItem} = props;
+  const {key, id, done, elem, removeItem, setDone} = props;
 
-  const [done, setDone] = useState(false);
+  // const [done, setDone] = useState(false);
 
   function onClickRemove() {
     removeItem(id);
   }
 
   function handlerCheckBox() {
-    setDone(!done);
+    setDone(id);
+    // setDone(!done);
   }
 
   return (

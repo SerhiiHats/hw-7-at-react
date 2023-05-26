@@ -23,7 +23,7 @@ const FormFunc = (props) => {
     }
     const tempValueInput = valueInput.trim();
     if (tempValueInput.length) {
-      addItem({value: tempValueInput, id: Date.now()})
+      addItem({value: tempValueInput, done: false, id: Date.now()})
       setvalueInput("");
     }
   }
